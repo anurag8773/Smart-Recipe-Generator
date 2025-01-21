@@ -29,8 +29,8 @@ The **Smart Recipe Generator** is a web application that allows users to get rec
 
 ## Technologies Used
 
-- **Backend**: Django (Python)
-- **Frontend**: HTML, CSS, JavaScript, Django Templates
+- **Backend**: Flask (Python)
+- **Frontend**: HTML, CSS, JavaScript, Flask Templates
 - **Machine Learning**: TensorFlow, PyTorch
 - **Database**: SQLite (development), PostgreSQL (production)
 - **Version Control**: Git
@@ -61,17 +61,9 @@ The **Smart Recipe Generator** is a web application that allows users to get rec
    ```bash
    pip install -r requirements.txt
    ```
-4. **Set up the database**:
+4. **Run the development server**:
    ```bash
-   python manage.py migrate
-   ```
-5. **Create a superuser (optional, for admin access)**:
-   ```bash
-   python manage.py createsuperuser
-   ```
-6. **Run the development server**:
-   ```bash
-   python manage.py runserver
+   python app.py
    ```
 ---
 ## Usage
@@ -82,6 +74,6 @@ The **Smart Recipe Generator** is a web application that allows users to get rec
 - **Save Recipes**: Keep your favorite recipes saved for easy access.
 ---
 ## Acknowledgements
-- **Django**: A high-level Python web framework for rapid development.
+- **Flask**: A lightweight Python web framework used to build the application.
 - **TensorFlow & PyTorch**: Machine learning libraries used for ingredient recognition.
 
